@@ -14,10 +14,7 @@ This example showcases:
 ```plaintext
 auth0-nextjs-trpc/
 ├── prisma/
-│ └── schema.prisma
-├── public/
-│ ├── next.svg
-│ └── vercel.svg
+│ └── [..]
 ├── src/
 │ ├── pages/
 │ │ ├── api/
@@ -35,18 +32,9 @@ auth0-nextjs-trpc/
 │ │ ├── context.ts
 │ │ ├── prisma.ts
 │ │ └── trpc.ts
-│ ├── styles/
-│ │ └── globals.css
 │ └── utils/
 │ └── trpc.ts
-├── .eslintrc.json
-├── .gitignore
-├── next.config.mjs
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
+├── [..]
 ```
 
 ## Learn More
