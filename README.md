@@ -7,7 +7,45 @@ This project demonstrates how to integrate Auth0 authentication with a Next.js a
 This example showcases:
 - Auth0 authentication in a Next.js application
 - tRPC for type-safe API routes
-- Prisma for database management
+- storing user data in a PostgreSQL database using Prisma
+
+## Folder Structure
+
+auth0-nextjs-trpc/
+├── prisma/
+│ └── schema.prisma
+├── public/
+│ ├── next.svg
+│ └── vercel.svg
+├── src/
+│ ├── pages/
+│ │ ├── api/
+│ │ │ ├── auth/
+│ │ │ │ └── [...auth0].ts
+│ │ │ └── trpc/
+│ │ │ └── [trpc].ts
+│ │ ├── app.tsx
+│ │ ├── document.tsx
+│ │ └── index.tsx
+│ ├── server/
+│ │ ├── routers/
+│ │ │ ├── app.ts
+│ │ │ └── auth.ts
+│ │ ├── context.ts
+│ │ ├── prisma.ts
+│ │ └── trpc.ts
+│ ├── styles/
+│ │ └── globals.css
+│ └── utils/
+│ └── trpc.ts
+├── .eslintrc.json
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
 
 ## Learn More
 
