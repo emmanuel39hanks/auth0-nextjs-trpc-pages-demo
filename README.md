@@ -11,6 +11,7 @@ This example showcases:
 
 ## Folder Structure
 
+```plaintext
 auth0-nextjs-trpc/
 ├── prisma/
 │ └── schema.prisma
@@ -46,6 +47,7 @@ auth0-nextjs-trpc/
 ├── README.md
 ├── tailwind.config.ts
 └── tsconfig.json
+```
 
 ## Learn More
 
